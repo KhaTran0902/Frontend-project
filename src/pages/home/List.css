@@ -1,0 +1,18 @@
+.list__container{
+    height: 100%;
+    width: 100%;
+    margin-top: 30px;
+}
+.list__card{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+   
+}
+
+.list__card img{
+    width: 100%;
+  
+}

@@ -1,0 +1,69 @@
+.sale__content{
+    margin: 50px 0;
+    
+}
+
+.sale__banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(https://i.pinimg.com/564x/1d/d9/5f/1dd95fe6b38fec8756163c7c71162c44.jpg);
+   width: 79%;
+   height: 30vh;
+    background-size: cover;
+    background-position: i;
+    margin: 50px auto;
+    color:#fff;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    border-radius: 10px;
+}
+.sale__banner span {
+    color:red;
+}
+.sale__banner h4{
+    font-size: 20px;
+}
+
+.sale__banner h2 {
+    font-size: 30px;
+    padding: 10px 0;
+}
+.sale__banner button {
+    width: 6.5em;
+    height: 2.3em;
+    margin: 0.5em;
+    background: #e55039;
+    color: white;
+    border: none;
+    border-radius: 0.625em;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+   }
+   
+  .sale__banner button:hover {
+    color: black;
+   }
+   
+   .sale__banner button:after {
+    content: "";
+    background: white;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+   }
+   
+   .sale__banner button:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+   }

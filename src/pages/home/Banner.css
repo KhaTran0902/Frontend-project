@@ -1,0 +1,111 @@
+.home {
+    height: 700px;
+   
+    background-image: url(https://cdn.pixabay.com/photo/2020/04/16/02/28/zippo-5048800_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+  }
+
+
+  .row {
+    color: #fff;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .home__product {
+    text-align: center;
+  }
+  .home__content span {
+    color: red;
+    
+  }
+  .home__content h1 {
+    text-align: center;
+    line-height: 65px;
+    font-size: 80px;
+  }
+  .home__content h2 {
+    text-align: center;
+    line-height: 65px;
+  }
+  .home__content p {
+    line-height: 45px;
+    font-size: 25px;
+    text-align: center;
+  }
+  .home__btn {
+    border: none;
+    padding: 20px;
+    border-radius: 20px;
+    
+    display: flex;
+  }
+  .homes__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .home__btn a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .home__btn{
+      padding: 10px 20px;
+      border: none;
+      font-size: 17px;
+      color: #000;
+      border-radius: 7px;
+      letter-spacing: 4px;
+      font-weight: 700;
+      text-transform: uppercase;
+      transition: 0.5s;
+      transition-property: box-shadow;
+    }
+    
+    .home__btn {
+      background: rgb(214, 67, 8);
+      box-shadow: 0 0 25px rgb(233, 90, 7);
+    }
+    
+    .home__btn:hover {
+      box-shadow: 0 0 5px rgb(228, 18, 18),
+                  0 0 25px rgb(228, 18, 18),
+                  0 0 50px rgb(228, 18, 18),
+                  0 0 100px rgb(228, 18, 18);
+    }
+  @media screen and (max-width: 600px) {
+    .home {
+      /* text-align: center; */
+      margin-top: 10px;
+      font-size: 15px;
+    }
+  
+    .home__content h1 {
+      text-align: center;
+      line-height: 35px;
+      font-size: 30px;
+    }
+    .home__content h2 {
+      text-align: center;
+      line-height: 35px;
+      font-size: 25px;
+    }
+    .home__content p {
+      text-align: center;
+    }
+    .btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  

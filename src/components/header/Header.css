@@ -1,0 +1,58 @@
+
+.imgs {
+  width:150px;
+}
+.nav__item {
+  
+  padding: 20px;
+  text-decoration: none;
+  
+
+}
+.nav__item a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+  color: #000;
+}
+.nav__item :hover {
+  color: blue;
+}
+
+
+
+.icon {
+  font-size: 25px;
+}
+.btn {
+  padding: 25px;
+}
+.icon {
+  font-size: 30px;
+}
+.container-input {
+    position: relative;
+  }
+  
+  .input {
+    width: 150px;
+    padding: 10px 0px 10px 40px;
+    border-radius: 9999px;
+    border: solid 1px #333;
+    transition: all .2s ease-in-out;
+    outline: none;
+    opacity: 0.8;
+  }
+  
+  .container-input svg {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translate(0, -50%);
+  }
+  
+  .input:focus {
+    opacity: 1;
+    width: 250px;
+  }
