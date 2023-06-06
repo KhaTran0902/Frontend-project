@@ -1,0 +1,31 @@
+.fillter-container ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.galleryWrapper{
+    padding: 2% 3%;
+}
+.fillter-container ul button{
+    background: #3d93b9;
+  color: #fff;
+  padding: 8px 46px;
+  text-transform: uppercase;
+  border: navajowhite;
+  font-size: 17px;
+  border-radius: 10px;
+}
+@media screen and (max-width:650px) {
+    .fillter-container ul button{
+        padding: 15px 10px;
+      
+        border-radius: 10px;
+        font-size: 10px;
+        width: 70px;
+    }
+    
+}

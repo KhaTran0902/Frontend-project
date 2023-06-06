@@ -11,7 +11,9 @@ export default function Home() {
     <div>
       <Header />
       <Banner />
+      <List/>
       <PauseOnHover />
+     
       <Sale/>
       <Support/>
       <Footer/>

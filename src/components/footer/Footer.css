@@ -15,8 +15,8 @@
   align-items: flex-start;
     margin-left: 30px;
   margin-bottom: 20px;
-  
 }
+
 
 .footer h4 {
   font-size: 14px;
@@ -59,7 +59,7 @@
   margin-left: 20px;
   font-size: 30px;
 }
-.zippo__content {
+.zippo__content, .footer__contact, .contact__content, .footer__follow {
     margin: auto;
 }
 
@@ -96,4 +96,7 @@
 }
 .img__bank {
   width: 100px;
+} 
+.zippo__link :hover a{
+  color:red;
 }

@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 export default function Banner() {
   return (
     <div className="home">
+      
       <Container>
         <Row className="row">
           <Col lg="6" md="6" className="home__contens">
@@ -22,12 +23,13 @@ export default function Banner() {
                 Chỉ bán nhằm mục đích trưng bày và sưu tầm
               </p>
 
-              <div d-flex align-items-center gap-4 className="homes__btn">
+            
+            </div>
+            <div d-flex align-items-center gap-4 className="homes__btn">
                 <button className="home__btn" d-flex align-items-center gap-2>
                   <Link to="/products"> Xem thêm nhiều sản phẩm </Link>
                 </button>
               </div>
-            </div>
           </Col>
         </Row>
       </Container>

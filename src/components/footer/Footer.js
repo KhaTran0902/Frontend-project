@@ -6,7 +6,8 @@ export default function Footer() {
   return (
     <div className="footer">
       <div className="col">
-        <h4>Liên hệ</h4>
+        <h4 className="footer__contact">Liên hệ</h4>
+        <div className="contact__content">
         <p>
           <strong>Địa chỉ:</strong> 72/13 Võ Thị Sáu tỉnh BR-VT{" "}
         </p>
@@ -16,6 +17,8 @@ export default function Footer() {
         <p>
           <strong>Giờ mở cửa:</strong> 9:00 - 18:00. Thứ 2 - Thứ 7{" "}
         </p>
+        </div>
+       
         <div className="footer__follow">
           <h4> Theo dõi chúng tôi</h4>
           <div className="icon">
@@ -32,13 +35,13 @@ export default function Footer() {
       <div className="col">
         <h4 className="zippo__content" > Về chúng tôi</h4>
         <div className="link__zippo">
-        <Link to=" " className="zippo__link">
+        <Link to="/products/zipponor" className="zippo__link">
           Zippo phổ thông
         </Link>
-        <Link to=" " className="zippo__link">
+        <Link to="/products/zippohighends " className="zippo__link">
           Zippo cao cấp
         </Link>
-        <Link to=" " className="zippo__link">
+        <Link to="/products/accesories" className="zippo__link">
          Phụ kiện Zippo 
         </Link>
         </div>
@@ -48,11 +51,14 @@ export default function Footer() {
         <h4 className="bank__content"> Hình thức thanh toán </h4>
         <div className="pay">
           <div className="momo">
+            <Link to="/pay">
             <p> Thanh toán MOMO</p>
             <img
               className="img__momo"
               src="https://file.hstatic.net/1000273026/article/momo_logo_ee7f0396e57f4820a504f7ab63e9eade_1024x1024.png"
             />
+            </Link>
+            
           </div>
           <div className="bank">
             <p> Thanh toán Banking</p>

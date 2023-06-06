@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import zip1 from "../../assets/images/zip1.jpg";
-import zip2 from "../../assets/images/zip2.jpg";
-import zip3 from "../../assets/images/zip3.jpg";
+
 import "./Slider.css";
 import { Next } from "react-bootstrap/esm/PageItem";
 export default class PauseOnHover extends Component {

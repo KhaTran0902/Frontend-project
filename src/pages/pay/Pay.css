@@ -1,0 +1,16 @@
+
+.pay__img img{
+    width: 200px;
+   
+}
+.pay__img .momo__img {
+    width: 261px;
+}
+
+.pay__img{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}

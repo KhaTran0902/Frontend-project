@@ -1,52 +1,58 @@
 import "./List.css";
+import { Link } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 export default function List() {
   return (
     <div className="list__container">
-      <h1>Danh mục sản phẩm</h1>
+      <h1 className="card__container">Danh mục sản phẩm</h1>
       <div className="list__card">
-        <Card style={{ width: "17rem" }}>
+        <Card className="card" style={{ width: "17rem" }}>
           <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </Card.Text>
+            <Card.Title className="card__title">Zippo Phổ Thông</Card.Title>
             <Card.Img
+              className="card__img_1"
               variant="top"
               src="https://i.pinimg.com/564x/d9/3f/f5/d93ff5c4e9720979e5cf699e03fb2ebd.jpg"
             />
-            <Button variant="primary">Go somewhere</Button>
+            <Link to="/products/zipponor">
+              <Button className="btn__card" variant="primary">
+                Xem chi tiết
+              </Button>
+            </Link>
           </Card.Body>
         </Card>
-        <Card style={{ width: "18rem" }}>
+        <Card className="card" style={{ width: "18rem" }}>
           <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </Card.Text>
+            <Card.Title className="card__title">Zippo Cao Cấp</Card.Title>
+
             <Card.Img
+              className="card__img_1"
               variant="top"
               src="https://i.pinimg.com/564x/85/80/01/858001796b94cb9b6bde17358a452d2e.jpg"
             />
-            <Button variant="primary">Go somewhere</Button>
+            <Link to="/products/zippohighends">
+              <Button className="btn__card" variant="primary">
+                Xem chi tiết
+              </Button>
+            </Link>
           </Card.Body>
         </Card>
 
-        <Card style={{ width: "18rem" }}>
+        <Card className="card" style={{ width: "18rem" }}>
           <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </Card.Text>
+            <Card.Title className="card__title"> Zippo đa năng </Card.Title>
+
             <Card.Img
+              className="card__img_1"
               variant="top"
-              src="https://i.pinimg.com/564x/11/23/49/1123497541d86e80df5d9ea6ce4e3158.jpg"
+              src="https://cdn.shopify.com/s/files/1/1295/7985/products/lqhqwtg8q4ws61qexzbi_large.jpg?v=1681234479"
             />
-            <Button variant="primary">Go somewhere</Button>
+            <Link to="/products/accesories">
+              <Button className="btn__card" variant="primary">
+                Xem chi tiết
+              </Button>
+            </Link>
           </Card.Body>
         </Card>
       </div>
