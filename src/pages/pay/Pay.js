@@ -5,7 +5,7 @@ import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 export default function Pay() {
   return (
-    <>
+    <div className="pays">
       <Header />
       <div className="pay__container">
         <div>
@@ -29,12 +29,10 @@ export default function Pay() {
           </div>
         </div>
         <div className="pay__content">
-            <div>
-                <p> Sau khi thanh toán xong quý khách vui lòng chụp và gửi hóa đơn qua zalo dưới đây để shop check </p>
-            </div>
+            
         </div>
       </div>
       <Footer />
-    </>
+    </div>
   );
 }

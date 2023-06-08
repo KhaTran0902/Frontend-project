@@ -44,7 +44,7 @@ export default function Header() {
     //     </div>
     //   </Container>
     // </div>
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="light" expand="lg" className="navbar__container">
       <Container fluid>
         <Link to="/">
           <Navbar.Brand href="#home" className="nav__left">
@@ -52,8 +52,8 @@ export default function Header() {
           </Navbar.Brand>
         </Link>
 
-        <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggle" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggle"  />
+        <Navbar.Collapse id="basic-navbar-nav" className="toggle__collapse">
           <Nav className="m-auto my-2 my-lg-0 nav_links ">
             <Link to="/" className="nav__item">
               <Nav.Link href="#home" >Home</Nav.Link>
@@ -67,10 +67,9 @@ export default function Header() {
             <Link to="/" className="nav__item">
               <Nav.Link href="#link">About</Nav.Link>
             </Link>
+            
           </Nav>
-          
-        </Navbar.Collapse>
-        <div class="container-input">
+          <div class="container-input">
             <input type="text" placeholder="Search" name="text" class="input" />
             <svg
               fill="#000000"
@@ -89,6 +88,8 @@ export default function Header() {
             <AiOutlineShoppingCart className="icon" />
             <div style={{ marginBottom: "15px" }}>{cart.length}</div>
           </Link>
+        </Navbar.Collapse>
+       
       </Container>
     </Navbar>
   );

@@ -3,7 +3,7 @@ import { ZippoNor } from "../../assets/fake-data/ListProducts";
 import "./ProductsNor.css";
 import { AppConText } from "../../AppContext";
 export default function ProductsNor() {
-  const {handleAddProduct} =useContext(AppConText)
+  const {handleAddProduct, DollarUsd} =useContext(AppConText)
   return (
     <div className="products">
       {ZippoNor.map((item) => (
@@ -16,7 +16,7 @@ export default function ProductsNor() {
           <div>
             <h3 className="item.title product-name">{item.title}</h3>
           </div>
-          <div className="product-price">{item.price} $ </div>
+          <div className="product-price">{DollarUsd.format(item.price)}  </div>
           <div> <button className="product-add-button" onClick={() => handleAddProduct(item)}> Buy now</button> </div>
         </div>
       ))}

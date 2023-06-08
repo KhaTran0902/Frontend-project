@@ -60,12 +60,15 @@ export default function Footer() {
             </Link>
             
           </div>
+          
           <div className="bank">
+          <Link to="/pay">
             <p> Thanh toán Banking</p>
             <img
               className="img__bank"
               src="https://play-lh.googleusercontent.com/knIdLBzE-ngS8Fhim_0FxH56vWhXaQmuLcpMdAcoFY_790hd3t4_XQAlyEWUnYJRyWFP"
             />
+            </Link>
           </div>
         </div>
       </div>

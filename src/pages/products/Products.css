@@ -15,7 +15,12 @@
     padding: 10px;
     margin: 20px 20px;
     overflow: hidden;
+    border-radius: 5px;
   
+}
+.product__card_all:hover{
+    border: solid 1px gray;
+
 }
 .product__img_all img {
     width: 190px;
@@ -24,6 +29,7 @@
     min-height: 200px;
     display: block;
     object-fit: cover;
+    object-position: center;
     transition: 0.3s all;
     margin-top: 10px;
     
@@ -35,10 +41,12 @@
     text-align: center;
     text-transform: uppercase;
     flex-wrap: wrap;
-    font-size: 20px;
+    font-size: 14px;
+    
 }
 .product-price-all{
     text-align: center;
+    margin-top: 5px;
 }
 .product-add-button-all{
     font-weight: 700;
@@ -72,4 +80,9 @@
     text-align: center;
     color: red;
     margin: 30px auto;
+}
+.animate__zoomInUp{
+    text-align: center;
+    animation-duration: 1s;
+    
 }

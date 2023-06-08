@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-
 import "./Slider.css";
 import { Next } from "react-bootstrap/esm/PageItem";
 export default class PauseOnHover extends Component {

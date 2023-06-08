@@ -5,6 +5,11 @@ export const AppProvider = ({ children }) => {
   const [cart, setCart] = useState([]);
   const [data, setData] = useState([]);
   const [collection, setCollection] = useState([]);
+  const [products, setProducts] = useState([])
+  const fetchProducts = async () => {
+    const response = await ZippoAll.products.list();
+    setProducts ((response && response.data) || [])
+  }
   const handleAddProduct = (product) => {
     const ProductExist = cart.find((item) => item.id === product.id);
     if (ProductExist) {

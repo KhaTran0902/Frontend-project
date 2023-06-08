@@ -1,15 +1,26 @@
+.toggle__collapse{
+  transition: all 0.3s ease-in;
+}
 .imgs {
-  width: 150px;
+  width: 100px;
+  margin-left: 100px;
 }
 .nav__item {
   padding: 20px;
   text-decoration: none;
+  
+}
+.navbar__container{
+  position: sticky;
+  top:0;
+  z-index: 10;
 }
 .nav_links {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+ 
 }
 .nav__item a {
   display: flex;
@@ -17,6 +28,7 @@
   justify-content: space-between;
   font-size: 20px;
   color: #000;
+  
 }
 .nav__item :hover {
   color: blue;
