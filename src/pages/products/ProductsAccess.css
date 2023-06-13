@@ -1,0 +1,20 @@
+.access__img{
+    width: 78%;
+    margin: 0px auto;
+}
+.access__img img {
+    width: 100%;
+}
+.products__access{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.access__content h3{
+   
+    margin-top: 30px;
+    text-align: center;
+}

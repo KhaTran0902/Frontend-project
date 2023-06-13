@@ -2,11 +2,12 @@ import "./List.css";
 import { Link } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
+import list from "../../assets/images/list.png"
 export default function List() {
   return (
-    <div className="list__container">
+    <div  className="list__container">
       <h1 className="card__container">Danh mục sản phẩm</h1>
-      <div className="list__card">
+      <div  className="list__card">
         <Card className="card" style={{ width: "17rem" }}>
           <Card.Body>
             <Card.Title className="card__title">Zippo Phổ Thông</Card.Title>
@@ -46,7 +47,7 @@ export default function List() {
             <Card.Img
               className="card__img_1"
               variant="top"
-              src="https://cdn.shopify.com/s/files/1/1295/7985/products/lqhqwtg8q4ws61qexzbi_large.jpg?v=1681234479"
+              src={list}
             />
             <Link to="/products/accesories">
               <Button className="btn__card" variant="primary">

@@ -1,15 +1,12 @@
 import { createContext, useEffect, useState } from "react";
 import { ZippoAll } from "./assets/fake-data/ListProducts";
+import AOS from "aos";
 export const AppConText = createContext({});
 export const AppProvider = ({ children }) => {
   const [cart, setCart] = useState([]);
   const [data, setData] = useState([]);
   const [collection, setCollection] = useState([]);
-  const [products, setProducts] = useState([])
-  const fetchProducts = async () => {
-    const response = await ZippoAll.products.list();
-    setProducts ((response && response.data) || [])
-  }
+  
   const handleAddProduct = (product) => {
     const ProductExist = cart.find((item) => item.id === product.id);
     if (ProductExist) {
@@ -56,7 +53,9 @@ export const AppProvider = ({ children }) => {
     const filterData = ZippoAll.filter((item) => item.title1 == itemData);
     setData(filterData);
   };
-
+  useEffect(() => {
+    AOS.init({ duration: 1500 });
+  },[]);
   return (
     <div>
       <AppConText.Provider

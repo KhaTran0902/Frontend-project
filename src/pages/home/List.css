@@ -1,6 +1,6 @@
 .list__container {
   height: auto;
-
+  
   margin-top: 50px;
 }
 
@@ -12,7 +12,9 @@
 }
 
 .card {
+  background: #ccc;
   border: none;
+  margin-right: 10px;
 }
 
 .card__title {

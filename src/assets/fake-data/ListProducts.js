@@ -265,39 +265,26 @@ export const ZippoHighEnds = [
 ];
 export const ZippoPk = [
   {
-    id: 1,
+    id: "19",
     title: "Rechargeable Candle Lighter",
+    title1: "Zippo Đa năng",
     price: 25.45,
     img: "https://cdn.shopify.com/s/files/1/1295/7985/products/1e0716cc00caf63a2bfdd38be22c5b86e00b88ca_large.jpg?v=1624458311",
   },
+
   {
-    id: 2,
-    title: "Zippo Brushed Chrome Candle Lighter",
-    price: 15.25,
-    img: "https://cdn.shopify.com/s/files/1/1295/7985/products/f83306a2d247a8bd2015c8c5447170f606265cb6_large.jpg?v=1681234291",
-  },
-  {
-    id: 3,
+    id: "20",
     title: "Flex Neck XL Utility Lighter",
+    title1: "Zippo Đa năng",
     price: 24.45,
     img: "https://cdn.shopify.com/s/files/1/1295/7985/products/fd6d32c8c09209df9eece941aba040516804e644_large.jpg?v=1624299978",
   },
+
   {
-    id: 4,
-    title: "Rechargeable Candle Lighter",
-    price: 25.45,
-    img: "https://cdn.shopify.com/s/files/1/1295/7985/products/1e0716cc00caf63a2bfdd38be22c5b86e00b88ca_large.jpg?v=1624458311",
-  },
-  {
-    id: 5,
+    id: "21",
     title: "Flex Neck Utility Lighter",
+    title1: "Zippo Đa năng",
     price: 21.95,
     img: "https://cdn.shopify.com/s/files/1/1295/7985/products/sejqat8evyqdxw56kzv2_large.jpg?v=1624300218",
-  },
-  {
-    id: 6,
-    title: "Rechargeable Candle Lighter",
-    price: 25.45,
-    img: "https://cdn.shopify.com/s/files/1/1295/7985/products/1e0716cc00caf63a2bfdd38be22c5b86e00b88ca_large.jpg?v=1624458311",
   },
 ];

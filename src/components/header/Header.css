@@ -10,11 +10,11 @@
   text-decoration: none;
   
 }
-.navbar__container{
+/* .navbar__container{
   position: sticky;
   top:0;
   z-index: 10;
-}
+} */
 .nav_links {
   width: 100%;
   display: flex;

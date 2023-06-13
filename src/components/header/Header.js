@@ -64,7 +64,7 @@ export default function Header() {
             <Link to="/contact" className="nav__item">
               <Nav.Link href="#link">Contact</Nav.Link>
             </Link>
-            <Link to="/" className="nav__item">
+            <Link to="/about" className="nav__item">
               <Nav.Link href="#link">About</Nav.Link>
             </Link>
             

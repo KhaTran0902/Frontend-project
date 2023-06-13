@@ -6,17 +6,20 @@ import List from "./List";
 import Sale from "./Sale";
 import Support from "../../components/footer/Support";
 import Footer from "../../components/footer/Footer";
+import Collection from "./Collection";
+import "./Home.css"
 export default function Home() {
   return (
-    <div>
+    <div className="home">
       <Header />
       <Banner />
-      <List/>
+      <List />
       <PauseOnHover />
-     
-      <Sale/>
-      <Support/>
-      <Footer/>
+      <Collection />
+      <Sale />
+      <Support />
+
+      <Footer />
     </div>
   );
 }
