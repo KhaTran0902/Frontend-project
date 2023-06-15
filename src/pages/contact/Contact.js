@@ -21,6 +21,7 @@ export default function Contact() {
           ></iframe>
         </div>
         <div className="contact__lh">
+         
             <div className="contact__contain">
                 <form className="contact__form">
                     <h1>Liên hệ</h1>

@@ -2,6 +2,7 @@ import { useContext } from "react"
 import { ZippoHighEnds } from "../../assets/fake-data/ListProducts"
 import { AppConText } from "../../AppContext"
 import "./ProductsHigh.css"
+import { Link } from "react-router-dom"
 export default function ProductsHigh () {
     const {handleAddProduct} =useContext(AppConText)
     return (
@@ -10,7 +11,9 @@ export default function ProductsHigh () {
           <div className="product__cards" key={item.id}>
             <div className="product__card">
               <div className="product__img">
+              <Link to={`/products/${item.id}`}>
                 <img src={item.img} alt="" />
+                </Link>
               </div>
             </div>{" "}
             <div>

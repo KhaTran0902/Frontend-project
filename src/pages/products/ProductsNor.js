@@ -1,29 +1,62 @@
 import { useContext } from "react";
 import { ZippoNor } from "../../assets/fake-data/ListProducts";
-import "./ProductsNor.css";
+// import "./ProductsNor.css";
 import { AppConText } from "../../AppContext";
 import { Link } from "react-router-dom";
+import Header from "../../components/header/Header";
+import Footer from "../../components/footer/Footer";
+import Support from "../../components/footer/Support";
 export default function ProductsNor() {
-  const {handleAddProduct, DollarUsd} =useContext(AppConText)
+  const { handleAddProduct, DollarUsd } = useContext(AppConText);
   return (
+    <div className="products__container">
+      <Header/>
+      <div className="products__banner">
+        <img
+          src="https://zippo.vn/wp-content/uploads/2022/07/Zippo-Lighters-Made-in-USA.png"
+          alt
+        />
+      </div>
+      {/* <h1 className="products__content">Sản phẩm</h1> */}
 
-    <div className="products">
-      {ZippoNor.map((item) => (
-        <div className="product__cards" key={item.id}>
-          <div className="product__card">
-            <div className="product__img">
-            <Link to={`/products/${item.id}`}>
-              <img src={item.img} alt="" />
-              </Link>
+     
+      <div className="products_all animate__zoomInUp">
+        {ZippoNor.map((item) => (
+          <div
+            data-aos="fade-up"
+            className="product__cards_all animate__zoomInUp"
+            key={item.id}
+          >
+            <div className="product__card_all">
+              <div className="product__img_all ">
+                <Link to={`/products/${item.id}`}>
+                  <img src={item.img} alt="" />
+                </Link>
+              </div>
+            </div>{" "}
+            <div>
+              <h3 className="item.title product-name-all ">
+                <Link className="" to={`/products/${item.id}`}>{item.title}</Link>
+              </h3>
             </div>
-          </div>{" "}
-          <div>
-            <h3 className="item.title product-name">{item.title}</h3>
+            <div className="product-price-all">
+              {DollarUsd.format(item.price)}{" "}
+            </div>
+            <div>
+              {" "}
+              <button
+                className="product-add-button-all"
+                onClick={() => handleAddProduct(item)}
+              >
+                {" "}
+                Buy now
+              </button>{" "}
+            </div>
           </div>
-          <div className="product-price">{DollarUsd.format(item.price)}  </div>
-          <div> <button className="product-add-button" onClick={() => handleAddProduct(item)}> Buy now</button> </div>
-        </div>
-      ))}
+        ))}
+      </div>
+      <Support/>
+     <Footer/>
     </div>
   );
 }

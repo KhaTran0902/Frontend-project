@@ -86,7 +86,7 @@ export default function Header() {
           </div>
           <Link to="/cart" className="nav__item">
             <AiOutlineShoppingCart className="icon" />
-            <div style={{ marginBottom: "15px" }}>{cart.length}</div>
+            <div style={{ marginBottom: "15px" }}>{cart?.length}</div>
           </Link>
         </Navbar.Collapse>
        

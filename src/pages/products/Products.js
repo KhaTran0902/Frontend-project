@@ -7,8 +7,9 @@ import "./Products.css";
 import Filters from "./Filter";
 import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
+import Support from "../../components/footer/Support";
 export default function Products() {
-  const { handleAddProduct, DollarUsd, data } = useContext(AppConText);
+  const { handleAddProduct, DollarUsd, data} = useContext(AppConText);
 
   return (
     <div className="products__container">
@@ -38,7 +39,9 @@ export default function Products() {
             </div>{" "}
             <div>
               <h3 className="item.title product-name-all ">
-                <Link to={`/products/${item.id}`}>{item.title}</Link>
+                <Link className="" to={`/products/${item.id}`}>
+                  {item.title}
+                </Link>
               </h3>
             </div>
             <div className="product-price-all">
@@ -50,13 +53,13 @@ export default function Products() {
                 className="product-add-button-all"
                 onClick={() => handleAddProduct(item)}
               >
-                {" "}
                 Buy now
               </button>{" "}
             </div>
           </div>
         ))}
       </div>
+      <Support />
       <Footer />
     </div>
   );
