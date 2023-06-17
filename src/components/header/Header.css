@@ -8,8 +8,9 @@
 .nav__item {
   padding: 20px;
   text-decoration: none;
-  
+  display: flex;
 }
+
 /* .navbar__container{
   position: sticky;
   top:0;
@@ -38,7 +39,7 @@
   color: red;
 }
 
-.icon {
+.icon__nav {
   font-size: 25px;
 }
 .btn {
@@ -78,4 +79,11 @@
         align-items: flex-start;
         
       }  
+      .nav__item .icon__nav{
+        margin-top: 10px;
+      }
+      .nav__item{
+        display: flex;
+        flex-direction: row;
+      }
 }

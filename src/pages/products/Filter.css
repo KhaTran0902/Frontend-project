@@ -1,10 +1,14 @@
+.fillter-container{
+    width: auto;
+    height: auto;
+}
 .fillter-container ul{
     display: flex;
     align-items: center;
     justify-content: center;
     list-style: none;
     padding: 0;
-    gap: 20px;
+    gap: 25px;
     margin-bottom: 30px;
 }
 .galleryWrapper{
@@ -21,8 +25,8 @@
 }
 @media screen and (max-width:650px) {
     .fillter-container ul button{
-        padding: 15px 10px;
-      
+        padding: 10px 15px;
+        height: 70px;
         border-radius: 10px;
         font-size: 10px;
         width: 70px;

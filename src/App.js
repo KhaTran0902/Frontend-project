@@ -15,7 +15,7 @@ import About from "./pages/about/About";
 function App() {
   return (
     <div className="App">
-        <Toaster  position="bottom-center"/>
+      
       <Routes>
         
         <Route path="/" element={<Home />} />

@@ -68,7 +68,7 @@ export default function Cart() {
         </div>
         <div className="cart-items-total-price-name">
           Total price
-          <div className="cart-items-total-price">${Math.round((totalPrice*100)/10)}</div>
+          <div className="cart-items-total-price">${totalPrice}</div>
         </div>
        
       </div>

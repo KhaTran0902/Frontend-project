@@ -1,14 +1,37 @@
 .about{
-    width: 100%;
+    width: auto;
+   height: auto;
+    background: #ccc;
 }
 
 .about__container {
     width: 100%;
     
 }
+.about__container h1 {
+    width: 80%;
+    margin: 10px auto;
+    list-style: circle;
+}
 .about__container p{
     width: 80%;
     margin: 10px auto;
     flex-wrap: wrap;
     color: red;
+    
+}
+.about__img{
+    
+    width: 80%;
+    margin: 0px auto;
+}
+.about__img img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+}
+@media screen and(max-width: 600px) {
+   
 }

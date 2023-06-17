@@ -282,7 +282,7 @@ const Details = () => {
                 </ul>
                 <div className="details__btn">
                   <button
-                    className="details__btn"
+                    className="detail__btn"
                     onClick={() => handleAddProduct(productData)}
                   >
                     Add to cart

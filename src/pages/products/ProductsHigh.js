@@ -8,7 +8,7 @@ export default function ProductsHigh () {
     return (
         <div className="products">
         {ZippoHighEnds.map((item) => (
-          <div className="product__cards" key={item.id}>
+          <div data-aos="fade-up" className="product__cards" key={item.id}>
             <div className="product__card">
               <div className="product__img">
               <Link to={`/products/${item.id}`}>

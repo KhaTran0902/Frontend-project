@@ -7,8 +7,6 @@ export default function Sale () {
             <h2><span> Giảm tới 70%</span> - Tất cả các mặt hàng</h2>
             <button>Xem thêm</button>
             </div>      
-           
-           
         </div>
     )
 }

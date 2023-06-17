@@ -8,7 +8,7 @@ export default function ListNor() {
   return(
     <>
         <ProductsNor />
-    <Support/>
+   
     </>
   
   ) ;

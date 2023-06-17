@@ -78,7 +78,7 @@ export const AppProvider = ({ children }) => {
     AOS.init({ duration: 1500 });
   }, []);
 
-  const createCheckoutSesion = () => {};
+
   return (
     <div>
       <AppConText.Provider
@@ -92,7 +92,7 @@ export const AppProvider = ({ children }) => {
           collection,
           setData,
           data,
-          createCheckoutSesion,
+    
         }}
       >
         {children}

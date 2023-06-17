@@ -13,7 +13,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-    margin-left: 30px;
+  margin-left: 30px;
   margin-bottom: 20px;
 }
 
@@ -32,6 +32,7 @@
     display: flex;
     align-items: flex-start; */
 }
+
 .footer a {
   font-size: 13px;
   margin: 0 0 10px 0;
@@ -42,61 +43,103 @@
 .footer__follow {
   margin-top: 10px;
 }
+
 .col p strong {
-  color: red;
+  font-size: 15px;
+  color: cadetblue;
 }
 
-.icon {
+.icon  {
   padding-left: 4px;
+  transition: 0.5s;
+  transition-property: box-shadow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto;
+}
+.icon a{
+  
+  font-size: 30px;
+  border: none;
 }
 
 .icon__face {
-  font-size: 25px;
+ 
+  font-size: 35px;
+  background: rgb(0,140,255);
+  box-shadow: 0 0 35px rgb(0,140,255);
+  border-radius: 50%;
 }
-
-.icon .icon__ins {
-  margin-top: 10px;
+.icon__face:hover{
+  box-shadow: 0 0 5px rgb(0,140,255),
+  0 0 25px rgb(0,140,255),
+  0 0 50px rgb(0,140,255),
+  0 0 100px rgb(0,140,255);
+}
+.icon .icon__ins  {
+ 
   margin-left: 20px;
-  font-size: 30px;
-}
-.zippo__content, .footer__contact, .contact__content, .footer__follow {
-    margin: auto;
-}
-
- .link__zippo { 
-    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    margin-top: 10px;
-    line-height: 30px;
+  font-size: 35px;
+  background: #CD486B;
+  box-shadow: 0 0 35px #CD486B;
+  border-radius: 35% 35% 35% 35% ;
 }
 
-.bank__content  {
-    
-    margin: auto;
+.icon__ins:hover{
+  box-shadow: 0 0 5px #CD486B,
+  0 0 25px#CD486B,
+  0 0 50px #CD486B,
+  0 0 100px #CD486B;
+  cursor: pointer;
 }
- .pay   {
+
+.zippo__content,
+.footer__contact,
+.contact__content,
+.footer__follow {
+  margin: auto;
+}
+
+.link__zippo {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 10px;
+  line-height: 30px;
+}
+
+.bank__content {
+
+  margin: auto;
+}
+
+.pay {
 
   display: flex;
   align-items: center;
   margin: auto;
 }
-.momo{
-    margin-right: 20px;
+
+.momo {
+  margin-right: 20px;
 }
+
 .img__momo {
   width: 100px;
 }
 
 .bank {
-  margin:auto;
+  margin: auto;
 }
+
 .img__bank {
   width: 100px;
-} 
-.zippo__link :hover a{
-  color:red;
+}
+
+.link__zippo :focus  {
+  color: red;
 }

@@ -1,3 +1,6 @@
+.access__container{
+    height: auto;
+}
 .access__img{
     width: 78%;
     margin: 0px auto;
@@ -7,6 +10,8 @@
 }
 .products__access{
     width: 100%;
+   
+   
     margin-top: 20px;
     display: flex;
     align-items: center;
