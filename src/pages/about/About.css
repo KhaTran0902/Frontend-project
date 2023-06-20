@@ -11,14 +11,24 @@
 .about__container h1 {
     width: 80%;
     margin: 10px auto;
-    list-style: circle;
+}
+.about__container li{
+    width: 80%;
+    margin: 10px auto;
 }
 .about__container p{
     width: 80%;
     margin: 10px auto;
     flex-wrap: wrap;
-    color: red;
+    color: black;
+}
+.about__container .about__link h5{
+    width: 80%;
+    margin: 10px auto;
     
+}
+.about__link h5 a {
+    color: red;
 }
 .about__img{
     

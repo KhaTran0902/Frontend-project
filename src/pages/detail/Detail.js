@@ -6,7 +6,9 @@ import { AppConText } from "../../AppContext";
 import { params } from "react-router-dom";
 import zip1 from "../../assets/images/zip1.png";
 import "./Detail.css";
+import { Link } from "react-router-dom";
 import Footer from "../../components/footer/Footer";
+import Support from "../../components/footer/Support";
 const Details = () => {
   const { DollarUsd, handleAddProduct } = useContext(AppConText);
   const params = useParams();
@@ -249,7 +251,7 @@ const Details = () => {
       title1: "Zippo Đa năng",
       price: 21.95,
       img: "https://cdn.shopify.com/s/files/1/1295/7985/products/sejqat8evyqdxw56kzv2_large.jpg?v=1624300218",
-      content:"Không có cách nào tốt hơn để bắt đầu đám cháy trong một cơn gió mạnh. Công nghệ ngọn lửa kép giữ cho ngọn lửa cháy mạnh và cổ linh hoạt định vị chính xác nhiệt theo bất kỳ hướng nào. Đầu khổ hẹp đủ nhỏ để tiếp cận các điểm chật hẹp trong đèn lồng và bếp cắm trại. Chúng rất tuyệt vời để thắp nến, vỉ nướng BBQ và hơn thế nữa. Cứng cáp, tất cả đều được xây dựng bằng kim loại. Cổ Flex này không được lấp đầy. Để có hiệu suất tối ưu, hãy đổ đầy nhiên liệu butan Zippo. Đi kèm đóng gói trong một vỉ.",
+      content: "Không có cách nào tốt hơn để bắt đầu đám cháy trong một cơn gió mạnh. Công nghệ ngọn lửa kép giữ cho ngọn lửa cháy mạnh và cổ linh hoạt định vị chính xác nhiệt theo bất kỳ hướng nào. Đầu khổ hẹp đủ nhỏ để tiếp cận các điểm chật hẹp trong đèn lồng và bếp cắm trại. Chúng rất tuyệt vời để thắp nến, vỉ nướng BBQ và hơn thế nữa. Cứng cáp, tất cả đều được xây dựng bằng kim loại. Cổ Flex này không được lấp đầy. Để có hiệu suất tối ưu, hãy đổ đầy nhiên liệu butan Zippo. Đi kèm đóng gói trong một vỉ.",
       height: " 19.5″",
       width: "1.2″",
     };
@@ -285,8 +287,14 @@ const Details = () => {
                     className="detail__btn"
                     onClick={() => handleAddProduct(productData)}
                   >
-                    Add to cart
+                    Thêm vào giỏ
                   </button>
+                  <button className="detail__btn">
+                    <Link to="/products">
+
+
+                      Tiếp tục mua sắm
+                    </Link></button>
                 </div>
               </div>
             </div>
@@ -294,7 +302,52 @@ const Details = () => {
         ) : (
           ""
         )}
+
       </div>
+      <div className="details__sp"><span></span></div>
+      <div>
+        <h1>CÓ THỂ BẠN SẼ THÍCH</h1>
+
+      </div>
+      <div class="row row-cols-2 row-cols-md-4 g-6 details__card">
+  <div class="col detail__card">
+    <div class="card">
+      <img src="https://zippo.vn/wp-content/uploads/2023/02/fjgxlpzxwwkco9bnhren_1024x1024.jpg" class="card-img-top" alt="..."/>
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://zippo.vn/wp-content/uploads/2023/02/fjgxlpzxwwkco9bnhren_1024x1024.jpg" class="card-img-top" alt="..."/>
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://zippo.vn/wp-content/uploads/2023/02/fjgxlpzxwwkco9bnhren_1024x1024.jpg" class="card-img-top" alt="..."/>
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://zippo.vn/wp-content/uploads/2023/02/fjgxlpzxwwkco9bnhren_1024x1024.jpg" class="card-img-top" alt="..."/>
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+      <Support />
       <Footer />
     </div>
   );

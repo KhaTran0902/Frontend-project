@@ -40,7 +40,7 @@ export default class PauseOnHover extends Component {
       ],
     };
     return (
-      <div data-aos="zoom-in-down" className="slider">
+      <div  data-aos="zoom-in-up" className="slider">
         <div className="slider__content">
             <b></b>
             <h2>Sản phẩm sắp ra mắt</h2>

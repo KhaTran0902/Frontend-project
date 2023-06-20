@@ -5,9 +5,9 @@ import ProductsAccess from "./ProductsAccess";
 export default function Accesories () {
     return (
         <>
-            <Header/>
+           
             <ProductsAccess/>
-            <Footer/>
+        
         </>
     )
 }

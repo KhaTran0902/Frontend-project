@@ -62,6 +62,7 @@ export const ZippoAll = [
     title1: "Phổ thông",
     price: 36.95,
     img: "https://cdn.shopify.com/s/files/1/1295/7985/files/dyde0djvnnikljg7hfla_large.jpg?v=1682605251",
+    count: 1,
   },
   {
     id: "02",
@@ -69,6 +70,7 @@ export const ZippoAll = [
     title1: "Phổ thông",
     price: 40.45,
     img: "https://cdn.shopify.com/s/files/1/1295/7985/files/atlls9agqjqjjhh5kgvr_large.jpg?v=1682605243",
+    count: 1,
   },
   {
     id: "03",
@@ -76,6 +78,7 @@ export const ZippoAll = [
     title1: "Phổ thông",
     price: 35.5,
     img: "https://cdn.shopify.com/s/files/1/1295/7985/files/lloekx546n7mlxdobvia_large.jpg?v=1682605236",
+    count: 1,
   },
   {
     id: "04",
@@ -83,6 +86,7 @@ export const ZippoAll = [
     title1: "Phổ thông",
     price: 28.95,
     img: "https://cdn.shopify.com/s/files/1/1295/7985/files/s8kq1msyny8roupjppy6_large.jpg?v=1682605111",
+    count: 1,
   },
   {
     id: "05",
@@ -90,6 +94,7 @@ export const ZippoAll = [
     title1: "Phổ thông",
     price: 32.95,
     img: "https://cdn.shopify.com/s/files/1/1295/7985/products/t6htkg7u2qju0jpgar0y_large.jpg?v=1681234446",
+    count: 1,
   },
   {
     id: "06",
@@ -97,6 +102,7 @@ export const ZippoAll = [
     title1: "Phổ thông",
     price: 32.95,
     img: "https://cdn.shopify.com/s/files/1/1295/7985/products/xwiuua3zulrvccxhmuuh_large.jpg?v=1681234331",
+    count: 1,
   },
   {
     id: "07",
@@ -104,6 +110,7 @@ export const ZippoAll = [
     title1: "Phổ thông",
     price: 40.45,
     img: "https://cdn.shopify.com/s/files/1/1295/7985/products/dmqtwyjvi9xfxolzuwqi_large.jpg?v=1681234334",
+    count: 1,
   },
   {
     id: "08",
@@ -111,6 +118,7 @@ export const ZippoAll = [
     title1: "Phổ thông",
     price: 32.95,
     img: "https://cdn.shopify.com/s/files/1/1295/7985/products/frzimbpzn0gng5qcf82w_large.jpg?v=1645131172",
+    count: 1,
   },
   {
     id: "09",
@@ -118,6 +126,7 @@ export const ZippoAll = [
     title1: "Phổ thông",
     price: 28.95,
     img: "https://cdn.shopify.com/s/files/1/1295/7985/products/gzrlv5eyxi8x1evvgxot_large.jpg?v=1680785281",
+    count: 1,
   },
   {
     id: "10",
@@ -125,6 +134,7 @@ export const ZippoAll = [
     title1: "Cao cấp",
     price: 200.033,
     img: "https://cdn.shopify.com/s/files/1/1295/7985/products/195_MAIN_large.jpg?v=1617104296",
+    count: 1,
   },
   {
     id: "11",
@@ -132,6 +142,7 @@ export const ZippoAll = [
     title1: "Cao cấp",
     price: 300.0,
     img: "https://cdn.shopify.com/s/files/1/1295/7985/files/flmqdmaemoeshqbbczv6_large.jpg?v=1683128914",
+    count: 1,
   },
   {
     id: "12",
@@ -139,6 +150,7 @@ export const ZippoAll = [
     title1: "Cao cấp",
     price: 230.0,
     img: "https://cdn.shopify.com/s/files/1/1295/7985/products/b0e0191e55b664c3f1e8a3de45e3de9ad93f88f4_large.jpg?v=1672578612",
+    count: 1,
   },
   {
     id: "13",
@@ -146,6 +158,7 @@ export const ZippoAll = [
     title1: "Cao cấp",
     price: 210.0,
     img: "https://cdn.shopify.com/s/files/1/1295/7985/products/olwypri8djgg5weqtft8_large.jpg?v=1672578784",
+    count: 1,
   },
   {
     id: "14",
@@ -153,6 +166,7 @@ export const ZippoAll = [
     title1: "Cao cấp",
     price: 97.0,
     img: "https://cdn.shopify.com/s/files/1/1295/7985/products/05a40faf16fa70fd036e6f216e1e2de94a088fc9_large.jpg?v=1672578605",
+    count: 1,
   },
   {
     id: "15",
@@ -160,6 +174,7 @@ export const ZippoAll = [
     title1: "Cao cấp",
     price: 115.0,
     img: "https://cdn.shopify.com/s/files/1/1295/7985/products/0d519de12b9c9391368e93cd9e834a72eeebcbe7_large.jpg?v=1672578628",
+    count: 1,
   },
   {
     id: "16",
@@ -167,6 +182,7 @@ export const ZippoAll = [
     title1: "Cao cấp",
     price: 140.25,
     img: "https://cdn.shopify.com/s/files/1/1295/7985/products/94ef3847d4fc58a6336ca0e16a8256cd866d1c8b_large.jpg?v=1680098100",
+    count: 1,
   },
   {
     id: "17",
@@ -174,6 +190,7 @@ export const ZippoAll = [
     title1: "Cao cấp",
     price: 120.0,
     img: "https://cdn.shopify.com/s/files/1/1295/7985/files/ffdjxypl3ktjsaum2nu9_large.jpg?v=1684182773",
+    count: 1,
   },
   {
     id: "18",
@@ -181,6 +198,7 @@ export const ZippoAll = [
     title1: "Cao cấp",
     price: 76.5,
     img: "https://cdn.shopify.com/s/files/1/1295/7985/products/tebzv8anb5lgfhukgvkh_large.jpg?v=1681234343",
+    count: 1,
   },
   {
     id: "19",
@@ -188,6 +206,7 @@ export const ZippoAll = [
     title1: "Zippo Đa năng",
     price: 25.45,
     img: "https://cdn.shopify.com/s/files/1/1295/7985/products/1e0716cc00caf63a2bfdd38be22c5b86e00b88ca_large.jpg?v=1624458311",
+    count: 1,
   },
 
   {
@@ -196,6 +215,7 @@ export const ZippoAll = [
     title1: "Zippo Đa năng",
     price: 24.45,
     img: "https://cdn.shopify.com/s/files/1/1295/7985/products/fd6d32c8c09209df9eece941aba040516804e644_large.jpg?v=1624299978",
+    count: 1,
   },
 
   {
@@ -204,6 +224,7 @@ export const ZippoAll = [
     title1: "Zippo Đa năng",
     price: 21.95,
     img: "https://cdn.shopify.com/s/files/1/1295/7985/products/sejqat8evyqdxw56kzv2_large.jpg?v=1624300218",
+    count: 1,
   },
 ];
 

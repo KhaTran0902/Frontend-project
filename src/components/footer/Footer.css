@@ -59,13 +59,12 @@
   margin: 10px auto;
 }
 .icon a{
-  
+
   font-size: 30px;
-  border: none;
 }
 
 .icon__face {
- 
+  margin-top: 5px;
   font-size: 35px;
   background: rgb(0,140,255);
   box-shadow: 0 0 35px rgb(0,140,255);
@@ -77,13 +76,13 @@
   0 0 50px rgb(0,140,255),
   0 0 100px rgb(0,140,255);
 }
-.icon .icon__ins  {
+.icon .icon__ins {
  
   margin-left: 20px;
   font-size: 35px;
   background: #CD486B;
   box-shadow: 0 0 35px #CD486B;
-  border-radius: 35% 35% 35% 35% ;
+  border-radius: 50%;
 }
 
 .icon__ins:hover{

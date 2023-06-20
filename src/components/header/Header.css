@@ -1,21 +1,24 @@
 .toggle__collapse{
   transition: all 0.3s ease-in;
+  
 }
+
 .imgs {
   width: 100px;
-  margin-left: 100px;
+  margin-left: auto;
 }
 .nav__item {
   padding: 20px;
   text-decoration: none;
   display: flex;
+  
 }
 
-/* .navbar__container{
+.navbar__container{
   position: sticky;
   top:0;
   z-index: 10;
-} */
+}
 .nav_links {
   width: 100%;
   display: flex;
@@ -23,21 +26,27 @@
   justify-content: center;
  
 }
+.nav_links a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .nav__item a {
   display: flex;
   align-items: center;
   justify-content: space-between;
   font-size: 20px;
   color: #000;
-  
+  transition: all 0.5s ease-in;
 }
 .nav__item :hover {
   color: blue;
+  border-bottom: 1px solid black;
+  transform: scale(1.2);
 }
 
-.nav-link a {
-  color: red;
-}
+
+
 
 .icon__nav {
   font-size: 25px;
@@ -45,38 +54,17 @@
 .btn {
   padding: 25px;
 }
-.icon {
+.icon__nav {
   font-size: 30px;
 }
-.container-input {
-  position: relative;
-}
 
-.input {
-  width: 150px;
-  padding: 10px 0px 10px 40px;
-  border-radius: 9999px;
-  border: solid 1px #333;
-  transition: all 0.2s ease-in-out;
-  outline: none;
-  opacity: 0.8;
-}
 
-.container-input svg {
-  position: absolute;
-  top: 50%;
-  left: 10px;
-  transform: translate(0, -50%);
-}
 
-.input:focus {
-  opacity: 1;
-  width: 250px;
-}
+
 @media screen and (max-width:650px) {
       .nav_links{
         display: flex;
-        align-items: flex-start;
+        align-items: center;
         
       }  
       .nav__item .icon__nav{
@@ -86,4 +74,10 @@
         display: flex;
         flex-direction: row;
       }
+      .header__input{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
 }

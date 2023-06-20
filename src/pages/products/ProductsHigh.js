@@ -6,6 +6,10 @@ import { Link } from "react-router-dom"
 export default function ProductsHigh () {
     const {handleAddProduct} =useContext(AppConText)
     return (
+      <>
+          <div className="products__banner">
+            <img src="https://cdn.shopify.com/s/files/1/0471/9532/4576/t/30/assets/slide_3_image.jpg?v=67866639453558017301685209672"/>
+          </div>
         <div className="products">
         {ZippoHighEnds.map((item) => (
           <div data-aos="fade-up" className="product__cards" key={item.id}>
@@ -24,5 +28,6 @@ export default function ProductsHigh () {
           </div>
         ))}
       </div>
+      </>
     )
 }

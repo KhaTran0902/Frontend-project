@@ -8,6 +8,7 @@ import Filters from "./Filter";
 import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
 import Support from "../../components/footer/Support";
+import swal from "sweetalert";
 export default function Products() {
   const { handleAddProduct, DollarUsd, data} = useContext(AppConText);
 
@@ -28,7 +29,7 @@ export default function Products() {
           <div
             data-aos="fade-up"
             className="product__cards_all animate__zoomInUp"
-            key={item.id}
+            key={item._id}
           >
             <div className="product__card_all">
               <div className="product__img_all ">
@@ -51,8 +52,15 @@ export default function Products() {
               {" "}
               <button
                 className="product-add-button-all"
-                onClick={() => handleAddProduct(item)}
-              >
+                onClick={ () => {
+                  swal({
+                    title: "Good job!",
+                    text: "You clicked the button!",
+                    icon: "success",
+                  });
+                 handleAddProduct(item);
+                }
+              }>
                 Buy now
               </button>{" "}
             </div>
